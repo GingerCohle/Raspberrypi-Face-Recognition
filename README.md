@@ -26,4 +26,4 @@ sudo apt-get install build-essential \
 &nbsp;&nbsp;&nbsp;&nbsp;python3-numpy \
 &nbsp;&nbsp;&nbsp;&nbsp;python3-pip \
 &nbsp;&nbsp;&nbsp;&nbsp;zip
-&nbsp;&nbsp;&nbsp;&nbsp;sudo apt-get clean
+sudo apt-get clean
