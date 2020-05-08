@@ -3,6 +3,8 @@ This is a faster and easy recognition for human face recognition based on raspbe
 We improve the recognition speed by saving feature extraction process. <br>
 It's based on dlib and python3.7. 
 ## Raspi Installation <br>
+**Basic requirement**
+```
 sudo apt-get update<br>
 sudo apt-get upgrade<br>
 sudo apt-get install build-essential \
@@ -26,5 +28,5 @@ sudo apt-get install build-essential \
 &nbsp;&nbsp;&nbsp;&nbsp;python3-numpy \
 &nbsp;&nbsp;&nbsp;&nbsp;python3-pip \
 &nbsp;&nbsp;&nbsp;&nbsp;zip
-sudo apt-get clean
-大大啊
+sudo apt-get clean \
+```
