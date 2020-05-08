@@ -6,24 +6,24 @@ It's based on dlib and python3.7.
 sudo apt-get update<br>
 sudo apt-get upgrade<br>
 sudo apt-get install build-essential \
-    cmake \
-    gfortran \
-    git \
-    wget \
-    curl \
-    graphicsmagick \
-    libgraphicsmagick1-dev \
-    libatlas-dev \
-    libavcodec-dev \
-    libavformat-dev \
-    libboost-all-dev \
-    libgtk2.0-dev \
-    libjpeg-dev \
-    liblapack-dev \
-    libswscale-dev \
-    pkg-config \
-    python3-dev \
-    python3-numpy \
-    python3-pip \
-    zip
+&nbsp;&nbsp;&nbsp;&nbsp;cmake \
+&nbsp;&nbsp;&nbsp;&nbsp;gfortran \
+&nbsp;&nbsp;&nbsp;&nbsp;git \
+wget \
+curl \
+graphicsmagick \
+libgraphicsmagick1-dev \
+libatlas-dev \
+libavcodec-dev \
+libavformat-dev \
+libboost-all-dev \
+libgtk2.0-dev \
+libjpeg-dev \
+liblapack-dev \
+libswscale-dev \
+pkg-config \
+python3-dev \
+python3-numpy \
+python3-pip \
+zip
 sudo apt-get clean
