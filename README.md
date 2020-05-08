@@ -3,30 +3,37 @@ This is a faster and easy recognition for human face recognition based on raspbe
 We improve the recognition speed by saving feature extraction process. <br>
 It's based on dlib and python3.7. 
 ## Raspi Installation <br>
-**Basic requirement**
+**Basic requirement:**
 ```
-sudo apt-get update<br>
-sudo apt-get upgrade<br>
+sudo apt-get update
+sudo apt-get upgrade
 sudo apt-get install build-essential \
-&nbsp;&nbsp;&nbsp;&nbsp;cmake \
-&nbsp;&nbsp;&nbsp;&nbsp;gfortran \
-&nbsp;&nbsp;&nbsp;&nbsp;git \
-&nbsp;&nbsp;&nbsp;&nbsp;wget \
-&nbsp;&nbsp;&nbsp;&nbsp;curl \
-&nbsp;&nbsp;&nbsp;&nbsp;graphicsmagick \
-&nbsp;&nbsp;&nbsp;&nbsp;libgraphicsmagick1-dev \
-&nbsp;&nbsp;&nbsp;&nbsp;libatlas-dev \
-&nbsp;&nbsp;&nbsp;&nbsp;libavcodec-dev \
-&nbsp;&nbsp;&nbsp;&nbsp;libavformat-dev \
-&nbsp;&nbsp;&nbsp;&nbsp;libboost-all-dev \
-&nbsp;&nbsp;&nbsp;&nbsp;libgtk2.0-dev \
-&nbsp;&nbsp;&nbsp;&nbsp;libjpeg-dev \
-&nbsp;&nbsp;&nbsp;&nbsp;liblapack-dev \
-&nbsp;&nbsp;&nbsp;&nbsp;libswscale-dev \
-&nbsp;&nbsp;&nbsp;&nbsp;pkg-config \
-&nbsp;&nbsp;&nbsp;&nbsp;python3-dev \
-&nbsp;&nbsp;&nbsp;&nbsp;python3-numpy \
-&nbsp;&nbsp;&nbsp;&nbsp;python3-pip \
-&nbsp;&nbsp;&nbsp;&nbsp;zip
-sudo apt-get clean \
+    cmake \
+    gfortran \
+    git \
+    wget \
+    curl \
+    graphicsmagick \
+    libgraphicsmagick1-dev \
+    libatlas-dev \
+    libavcodec-dev \
+    libavformat-dev \
+    libboost-all-dev \
+    libgtk2.0-dev \
+    libjpeg-dev \
+    liblapack-dev \
+    libswscale-dev \
+    pkg-config \
+    python3-dev \
+    python3-numpy \
+    python3-pip \
+    zip
+sudo apt-get clean
 ```
+**Picamera Installion**<br>
+if U use only picamera and proceed the code below
+```
+sudo apt-get install python3-picamera
+sudo pip3 install --upgrade picamera[array]
+```<br>
+If U use Usb camera, then there is no requirement for Picamera Installion. 'Opencv-python can do.'<br>
