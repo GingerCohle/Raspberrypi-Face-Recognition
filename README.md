@@ -2,14 +2,14 @@
 This is a faster and easy recognition for human face recognition based on raspberrypi 4B.
 We improve the recognition speed by saving feature extraction process. <br>
 It's based on dlib and python3.7. 
-## Request <br>
+## Raspi Installation <br>
 sudo apt-get update<br>
 sudo apt-get upgrade<br>
-sudo apt-get install build-essential \<br>
-    cmake \<br>
-    gfortran \<br>
-    git \<br>
-    wget \<br>
+sudo apt-get install build-essential \
+    cmake \
+    gfortran \
+    git \
+    wget \
     curl \
     graphicsmagick \
     libgraphicsmagick1-dev \
