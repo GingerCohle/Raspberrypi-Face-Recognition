@@ -1,8 +1,8 @@
 # Raspberrypi-Face-Recognition
 This is a faster and easy recognition for human face recognition based on raspberrypi 4B.
 We improve the recognition speed by saving feature extraction process. <br>
-It's based on dlib and python3.7. 
-'We test it on raspi4B. It's robust for recognizing human face within 3 meters.'
+It's based on dlib and python3.7. <br>
+‘We test it on raspi4B. It's robust for recognizing human face within 3 meters.’
 ## Raspi Installation <br>
 **Basic requirement:**
 ```
