@@ -36,4 +36,4 @@ if U use only picamera and proceed the code below
 sudo apt-get install python3-picamera
 sudo pip3 install --upgrade picamera[array]
 ```
-<br>If U use Usb camera, then there is no requirement for Picamera Installion. `Opencv-python can do.`
+<br>If U use Usb camera, then there is no requirement for Picamera Installion. `python3-opencv` can do the same job as picamera.
